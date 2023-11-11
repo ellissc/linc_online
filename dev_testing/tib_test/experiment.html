@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    <script src="https://unpkg.com/jspsych@7.3.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-image-button-response@1.0.0"></script>
+    <script src="../../custom_plugins/text_image_button.js"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.2"></script>
+    <link href="https://unpkg.com/jspsych@7.3.3/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+  <script>
+    const timeline = [];
+    const jsPsych = initJsPsych();
+
+    var preload = {
+        type: jsPsychPreload,
+        auto_preload: true
+    }
+
+    const test = {
+        type: jsPsychImageButtonResponse,
+        stimulus: ['../img/cat1.jpg'],
+        choices: ["Cat", "Not a cat"],
+        prompt: "<p>Is this a cat?</p>",
+        on_finish: function(){
+          console.log(jsPsych.data.displayData("json"))
+        }
+    }
+    timeline.push(test);
+
+    const test2 = {
+        type: TextImageButtonResponsePlugin,
+        stimulus: ['../img/cat1.jpg'],
+        choices: ["Cat", "Not a cat"],
+        prompt: "<p>Is this a cat?</p>",
+        on_finish: function(){
+          console.log(jsPsych.data.displayData("json"))
+        }
+    }
+    timeline.push(test2);
+
+
+    jsPsych.run(timeline);
+  </script>
+</html>

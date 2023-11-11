@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    <script src="https://unpkg.com/jspsych@7.3.3"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.0.0"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-free-sort@1.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.2"></script>
+    <link href="https://unpkg.com/jspsych@7.3.3/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+  <script>
+    const timeline = [];
+    const jsPsych = initJsPsych();
+
+    var preload = {
+        type: jsPsychPreload,
+        auto_preload: true
+    }
+
+    const test = {
+        type: jsPsychFreeSort,
+        stimuli: ['../img/cat1.jpg', '../img/cat2.jpg', '../img/cat3.jpg', '../img/cat4.jpg'],
+        sort_area_width: 500,
+        sort_area_height: 500,
+        stim_starts_inside: true,
+        prompt: "<p>Click and drag the images below to sort them so that similar items are close together.</p>",
+        on_finish: function(){
+          console.log(jsPsych.data.displayData("json"))
+        }
+    }
+    timeline.push(test);
+
+
+    jsPsych.run(timeline);
+  </script>
+</html>
