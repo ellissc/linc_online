@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sentence Completion Experiment</title>
+  <script src="D:\LLnc Experiments\JsPsych 7.3.4\dist\jspsych.js"></script>
+  <script src="D:\LLnc Experiments\JsPsych 7.3.4\dist\plugin-html-keyboard-response.js"></script>
+  <script src="D:\LLnc Experiments\JsPsych 7.3.4\dist\plugin-survey-html-form.js"></script>
+</head>
+<body>
+  <div id="jspsych-target"></div>
+
+  <script>
+    const jsonData = [
+      {"1":{"question":"He will bop the bear with the","verb":"bop","animal":"bear","norm_category":"INST"}},
+      {"2":{"question":"He will bop the butterfly with the","verb":"bop","animal":"butterfly","norm_category":"INST"}},
+    ];
+
+    function createTrial(questionData, questionNumber) {
+      return {
+        type: 'survey-html-form',
+        preamble: `<p>Question ${questionNumber}: ${questionData.question} _________.</p>`,
+        html: '<input type="text" name="response" required>',
+        on_finish: function(data) {
+          const response = JSON.parse(data.responses).response.trim();
+          if (response !== '') {
+            jsPsych.endCurrentTimeline(); 
+          } else {
+            alert('Please provide an answer before proceeding.'); 
+          }
+        }
+      };
+    }
+
+    const timeline = [];
+
+    jsonData.forEach((item, index) => {
+      const questionData = Object.values(item)[0];
+      const questionNumber = Object.keys(item)[0];
+
+      timeline.push(createTrial(questionData, questionNumber));
+    });
+
+    initJsPsych({
+      timeline: timeline,
+      display_element: 'jspsych-target'
+    });
+  </script>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Questions Display</title>
+</head>
+<body>
+
+  <div id="questionsContainer"></div>
+
+  <script>
+    // Your JSON data
+    const jsonData = [
+      {"1":{"question":"He will bop the bear with the","verb":"bop","animal":"bear","norm_category":"INST"}},
+      // ... (remaining JSON data)
+    ];
+
+    // Function to display questions
+    function displayQuestions() {
+      const questionsContainer = document.getElementById('questionsContainer');
+
+      jsonData.forEach(item => {
+        const questionKey = Object.keys(item)[0];
+        const questionData = item[questionKey];
+
+        const questionDiv = document.createElement('div');
+        questionDiv.innerHTML = `<p>${questionData.question} <input type="text" id="response_${questionKey}"></p>`;
+        questionsContainer.appendChild(questionDiv);
+      });
+    }
+
+    // Call the function to display questions when the window loads
+    window.onload = displayQuestions;
+  </script>
+
+</body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JsPsych Experiment with Questions</title>
+  <script src="https://cdn.jsdelivr.net/npm/jspsych@7.0.0"></script>
+</head>
+<body>
+
+  <div id="jspsych-content"></div>
+
+  <script>
+    const jsonData = [
+      {"1":{"question":"He will bop the bear with the","verb":"bop","animal":"bear","norm_category":"INST"}},
+      {"2":{"question":"He will brush the fish with the","verb":"brush","animal":"fish","norm_category":"na"}},
+    ];
+
+    function createExperiment() {
+      const selectedQuestions = jsonData.slice(0, 2); 
+
+      const timeline = [];
+
+      selectedQuestions.forEach(item => {
+        const questionKey = Object.keys(item)[0];
+        const questionData = item[questionKey];
+
+        const trial = {
+          type: 'html-keyboard-response',
+          stimulus: `<p>${questionData.question} <input type="text" id="response_${questionKey}"></p>`,
+          post_trial_gap: 500 
+        };
+
+        timeline.push(trial);
+      });
+
+      return timeline;
+    }
+
+    jsPsych.init({
+      timeline: createExperiment(),
+      on_finish: function() {
+        const responses = {};
+
+        jsonData.slice(0, 2).forEach(item => {
+          const questionKey = Object.keys(item)[0];
+          const response = document.getElementById(`response_${questionKey}`).value;
+          responses[questionKey] = response;
+        });
+
+        console.log(responses);
+      }
+    });
+
+  </script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Sentence Completion Questions</title>
+</head>
+<body>
+  <div id="questions"></div>
+
+  <script>
+    fetch('http://localhost:8000/updated_stimuli.json')
+    .then(response => response.json())
+    .then(data => {
+    startExperiment(data);
+    })
+    .catch(error => {
+        console.error('Error fetching JSON:', error);
+    });
+
+
+    function startExperiment(jsonData) {
+    function shuffle(array) {
+        let currentIndex = array.length, temporaryValue, randomIndex;
+
+        while (currentIndex !== 0) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
+  const shuffledData = shuffle(jsonData);
+
+  const timeline = [];
+
+  shuffledData.forEach((item, index) => {
+    const questionData = Object.values(item)[0];
+
+    const trial = {
+      type: 'survey-text',
+      preamble: `Fill in the blank: ${questionData.question} _________.`,
+      questions: [{
+        prompt: '',
+        placeholder: 'Type your answer here',
+        rows: 1,
+        columns: 50,
+        required: true
+      }],
+      on_finish: function(data) {
+        jsPsych.data.get().addToLast({ verb: questionData.verb, animal: questionData.animal });
+      }
+    };
+
+    timeline.push(trial);
+  });
+
+  timeline.push({
+    type: 'html-keyboard-response',
+    stimulus: 'Thank you for completing the experiment!',
+    trial_duration: 3000
+  });
+
+  jsPsych.init({
+    timeline: timeline
+  });
+}
+
+
+  </script>
+</body>
+</html> -->
+
+
+
+
+
+
