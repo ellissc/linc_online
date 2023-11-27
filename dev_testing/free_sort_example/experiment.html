@@ -4,7 +4,8 @@
     <title>My experiment</title>
     <script src="https://unpkg.com/jspsych@7.3.3"></script>
     <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.0.0"></script>
-    <script src="https://unpkg.com/@jspsych/plugin-free-sort@1.0.2"></script>
+    <!-- <script src="https://unpkg.com/@jspsych/plugin-free-sort@1.0.2"></script> -->
+    <script src="../../custom_plugins/custom_freesort.js"></script>
     <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.2"></script>
     <link href="https://unpkg.com/jspsych@7.3.3/css/jspsych.css" rel="stylesheet" type="text/css" />
   </head>
@@ -19,8 +20,8 @@
     }
 
     const test = {
-        type: jsPsychFreeSort,
-        stimuli: ['../img/cat1.jpg', '../img/cat2.jpg', '../img/cat3.jpg', '../img/cat4.jpg'],
+        type: FreeSortPlugin,
+        stimuli: ["Dog","Cat","Mouse","Snake","Truck","Person"],
         sort_area_width: 500,
         sort_area_height: 500,
         stim_starts_inside: true,
