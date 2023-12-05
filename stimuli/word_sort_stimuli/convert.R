@@ -2,13 +2,50 @@
 library(here)
 setwd(here())
 library(tidyverse)
+library(readxl)
 library(jsonlite)
 
 
 ## Reading data ----
-stimuli <- read_csv(here("stimuli","verb_cloze_stimuli","verb_cloze_stimuli.csv")) |> 
-  distinct(question_num, question, verb, animal, .keep_all = T) |> 
-  mutate(animal = gsub("\\.","",animal))
+stimuli <- read_xlsx(here("stimuli","word_sort_stimuli","categories.xlsx")) # from Blank et al. 2020, semantic projection
+
+animals <- stimuli$animals[!is.na(stimuli$animals)]
+
+professions <- stimuli$professions[!is.na(stimuli$professions)]
+
+weather <- stimuli$weather[!is.na(stimuli$weather)]
+
+
+generate_sets <- function(set5, set10, set15){
+  
+}
+# Experiment 1a: 5 pairs
+a1 <- sample(animals, size = 5)
+a2 <- sample(weather, size = 5)
+a3 <- sample(professions, size = 5)
+
+# Experiment 1b: 10 pairs
+b1 <- sample(professions, size = 10)
+b2 <- sample(animals, size = 10)
+b3 <- sample(weather, size = 10)
+
+# Experiment 1c: 15 pairs
+c1 <- sample(weather, size = 15)
+c2 <- sample(professions, size = 15)
+c3 <- sample(animals, size = 15)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Question num ----
 # Not sure about the question number, there are multiple questions per question num.
