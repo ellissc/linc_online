@@ -1,1280 +1,167 @@
-[
-    {
-        "SENTENCE": "<p> He will bop the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "bop",
-        "animal": "bear",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will bop the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "bop",
-        "animal": "butterfly",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will bop the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "bop",
-        "animal": "elephant",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will bop the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "bop",
-        "animal": "panda",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will brush the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "brush",
-        "animal": "bird",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will brush the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "brush",
-        "animal": "camel",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will brush the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "brush",
-        "animal": "fish",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will brush the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "brush",
-        "animal": "penguin",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will bump the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "bump",
-        "animal": "bunny",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will bump the chicken with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "bump",
-        "animal": "chicken",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will bump the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "bump",
-        "animal": "frog",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will bump the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "bump",
-        "animal": "pig",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will choose the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "choose",
-        "animal": "butterfly",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will choose the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "choose",
-        "animal": "cow",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will choose the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "choose",
-        "animal": "giraffe",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will choose the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "choose",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will clean the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "clean",
-        "animal": "camel",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will clean the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "clean",
-        "animal": "dog",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will clean the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "clean",
-        "animal": "hippo",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will clean the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "clean",
-        "animal": "turtle",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will cuddle the chicken with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "cuddle",
-        "animal": "chicken",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will cuddle the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "cuddle",
-        "animal": "dolphin",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will cuddle the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "cuddle",
-        "animal": "horse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will cuddle the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "cuddle",
-        "animal": "whale",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will drag the fork and <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "drag",
-        "animal": "fork",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will drag the fork and <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "drag",
-        "animal": "fork",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will drag the fork and <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "drag",
-        "animal": "fork",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will drag the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "drag",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will drag the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "drag",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will drag the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "drag",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will feed the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "feed",
-        "animal": "cow",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will feed the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "feed",
-        "animal": "duckling",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will feed the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "feed",
-        "animal": "ladybug",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will feed the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "feed",
-        "animal": "zebra",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will feel the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "feel",
-        "animal": "bear",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will feel the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "feel",
-        "animal": "dog",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will feel the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "feel",
-        "animal": "elephant",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will feel the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "feel",
-        "animal": "leopard",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will find the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "find",
-        "animal": "bird",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will find the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "find",
-        "animal": "dolphin",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will find the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "find",
-        "animal": "fish",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will find the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "find",
-        "animal": "lion",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will get the straw and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "get",
-        "animal": "straw",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will get the straw and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "get",
-        "animal": "straw",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will get the straw and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "get",
-        "animal": "straw",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will give the fan to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "give",
-        "animal": "fan",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will give the fan to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "give",
-        "animal": "fan",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will give the fan to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "give",
-        "animal": "fan",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will give the fan to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "give",
-        "animal": "fan",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will give the lollipop to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "give",
-        "animal": "lollipop",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will give the lollipop to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "give",
-        "animal": "lollipop",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will give the lollipop to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "give",
-        "animal": "lollipop",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will give the lollipop to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "give",
-        "animal": "lollipop",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will have the bunny <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "have",
-        "animal": "bunny",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will have the bunny <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "have",
-        "animal": "bunny",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will have the bunny <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "have",
-        "animal": "bunny",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will have the bunny <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "have",
-        "animal": "bunny",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will have the mouse go around the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "have",
-        "animal": "mouse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will have the mouse go around the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "have",
-        "animal": "mouse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will have the mouse go around the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "have",
-        "animal": "mouse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will have the mouse go around the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "have",
-        "animal": "mouse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will hit the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "hit",
-        "animal": "bunny",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will hit the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "hit",
-        "animal": "duckling",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will hit the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "hit",
-        "animal": "frog",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will hit the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "hit",
-        "animal": "mouse",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will hug the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "hug",
-        "animal": "butterfly",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will hug the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "hug",
-        "animal": "elephant",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will hug the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "hug",
-        "animal": "giraffe",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will hug the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "hug",
-        "animal": "panda",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will knock on the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "knock",
-        "animal": "bunny",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will knock on the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "knock",
-        "animal": "duckling",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will knock on the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "knock",
-        "animal": "frog",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will knock on the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "knock",
-        "animal": "mouse",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will locate the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "locate",
-        "animal": "camel",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will locate the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "locate",
-        "animal": "fish",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will locate the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "locate",
-        "animal": "hippo",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will locate the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "locate",
-        "animal": "penguin",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will look at the chicken with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "look",
-        "animal": "chicken",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will look at the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "look",
-        "animal": "frog",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will look at the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "look",
-        "animal": "horse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will look at the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "look",
-        "animal": "pig",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the camel slide down the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "camel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the camel slide down the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "camel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the camel slide down the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "camel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the camel slide down the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "camel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the elephant walk over to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "elephant",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the elephant walk over to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "elephant",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the elephant walk over to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "elephant",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the elephant walk over to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "elephant",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the fish eat <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "fish",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the fish eat <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "fish",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will make the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "make",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will nudge the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "nudge",
-        "animal": "cow",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will nudge the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "nudge",
-        "animal": "giraffe",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will nudge the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "nudge",
-        "animal": "ladybug",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will nudge the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "nudge",
-        "animal": "squirrel",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will pat the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pat",
-        "animal": "dog",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will pat the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pat",
-        "animal": "hippo",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will pat the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pat",
-        "animal": "leopard",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will pat the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pat",
-        "animal": "turtle",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will pet the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pet",
-        "animal": "dolphin",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pet the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pet",
-        "animal": "horse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pet the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pet",
-        "animal": "lion",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pet the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pet",
-        "animal": "whale",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick out the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "duckling",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick out the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "ladybugy",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick out the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "zebra",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick up the leopard that is <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "the",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick up the leopard that is <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "the",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick up the leopard that is <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "the",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick up the leopard that is <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "the",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick up the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "mouse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick up the tooth brush and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "the",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick up the toothbrush and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "the",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pick up the toothbrush and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pick",
-        "animal": "the",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will pinch the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pinch",
-        "animal": "bear",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will pinch the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pinch",
-        "animal": "elephant",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will pinch the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pinch",
-        "animal": "leopard",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will pinch the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "pinch",
-        "animal": "panda",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will poinst to the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "point",
-        "animal": "bird",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will poinst to the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "point",
-        "animal": "fish",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will poinst to the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "point",
-        "animal": "lion",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will poinst to the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "point",
-        "animal": "penguin",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will poke the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "poke",
-        "animal": "bunny",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will poke the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "poke",
-        "animal": "frog",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will poke the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "poke",
-        "animal": "mouse",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will poke the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "poke",
-        "animal": "pig",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will put the partyhat <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "put",
-        "animal": "partyhat",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will put the partyhat <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "put",
-        "animal": "partyhat",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will put the partyhat <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "put",
-        "animal": "partyhat",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will put the partyhat <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "put",
-        "animal": "partyhat",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will rub the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "rub",
-        "animal": "butterfly",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will rub the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "rub",
-        "animal": "giraffe",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will rub the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "rub",
-        "animal": "panda",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will rub the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "rub",
-        "animal": "squirrel",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will scratch the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "scratch",
-        "animal": "camel",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will scratch the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "scratch",
-        "animal": "hippo",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will scratch the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "scratch",
-        "animal": "penguin",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will scratch the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "scratch",
-        "animal": "turtle",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will scuff the chicken with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "scuff",
-        "animal": "chicken",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will scuff the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "scuff",
-        "animal": "horse",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will scuff the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "scuff",
-        "animal": "pig",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will scuff the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "scuff",
-        "animal": "whale",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will select the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "select",
-        "animal": "cow",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will select the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "select",
-        "animal": "ladybug",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will select the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "select",
-        "animal": "squirrel",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will select the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "select",
-        "animal": "zebra",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will smack the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "smack",
-        "animal": "bear",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will smack the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "smack",
-        "animal": "dog",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will smack the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "smack",
-        "animal": "leopard",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will smack the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "smack",
-        "animal": "turtle",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will spot the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "spot",
-        "animal": "bird",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will spot the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "spot",
-        "animal": "dolphin",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will spot the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "spot",
-        "animal": "lion",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will spot the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "spot",
-        "animal": "whale",
-        "norm_category": "EQUI"
-    },
-    {
-        "SENTENCE": "<p> He will squeeze the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "squeeze",
-        "animal": "bunny",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will squeeze the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "squeeze",
-        "animal": "duckling",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will squeeze the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "squeeze",
-        "animal": "mouse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will squeeze the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "squeeze",
-        "animal": "mouse",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will squeeze the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "squeeze",
-        "animal": "zebra",
-        "norm_category": "MOD"
-    },
-    {
-        "SENTENCE": "<p> He will strike the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "strike",
-        "animal": "bear",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will strike the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "strike",
-        "animal": "butterfly",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will strike the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "strike",
-        "animal": "elephant",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will strike the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "strike",
-        "animal": "panda",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will stroke the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "stroke",
-        "animal": "bird",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will stroke the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "stroke",
-        "animal": "camel",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will stroke the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "stroke",
-        "animal": "fish",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will stroke the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "stroke",
-        "animal": "penguin",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will swat at the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "swat",
-        "animal": "bunny",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will swat at the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "swat",
-        "animal": "frog",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will swat at the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "swat",
-        "animal": "pig",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will take the ladybug that is holding the net and make it <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "take",
-        "animal": "ladybug",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will take the ladybug that is holding the net and make it <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "take",
-        "animal": "ladybug",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will take the ladybug that is holding the net and make it <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "take",
-        "animal": "ladybug",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will take the whale and put him by the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "take",
-        "animal": "whale",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will take the whale and put him by the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "take",
-        "animal": "whale",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will take the whale and put him by the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "take",
-        "animal": "whale",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will take the whale and put him by the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "take",
-        "animal": "whale",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tap the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tap",
-        "animal": "butterfly",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tap the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tap",
-        "animal": "cow",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tap the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tap",
-        "animal": "giraffe",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tap the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tap",
-        "animal": "squirrel",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tease the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tease",
-        "animal": "bear",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will tease the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tease",
-        "animal": "dog",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will tease the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tease",
-        "animal": "elephant",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will tease the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tease",
-        "animal": "leopard",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will thump the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "thump",
-        "animal": "bird",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will thump the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "thump",
-        "animal": "dolphin",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will thump the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "thump",
-        "animal": "fish",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will thump the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "thump",
-        "animal": "lion",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tickle the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tickle",
-        "animal": "camel",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tickle the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tickle",
-        "animal": "dog",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tickle the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tickle",
-        "animal": "hippo",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will tickle the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "tickle",
-        "animal": "turtle",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will touch the chicken with the… <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "touch",
-        "animal": "chicken",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will touch the dog that has the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "touch",
-        "animal": "dog",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will touch the dog that has the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "touch",
-        "animal": "dog",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will touch the dog that has the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "touch",
-        "animal": "dog",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will touch the dog that has the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "touch",
-        "animal": "dog",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will touch the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "touch",
-        "animal": "dolphin",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will touch the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "touch",
-        "animal": "horse",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will touch the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "touch",
-        "animal": "whale",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will use the cup to pet the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "use",
-        "animal": "cup",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will use the cup to pet the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "use",
-        "animal": "cup",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will use the cup to pet the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "use",
-        "animal": "cup",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will use the cup to pet the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "use",
-        "animal": "cup",
-        "norm_category": "na"
-    },
-    {
-        "SENTENCE": "<p> He will whack the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "whack",
-        "animal": "cow",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will whack the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "whack",
-        "animal": "duckling",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will whack the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "whack",
-        "animal": "ladybug",
-        "norm_category": "INST"
-    },
-    {
-        "SENTENCE": "<p> He will whack the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>",
-        "verb": "whack",
-        "animal": "zebra",
-        "norm_category": "INST"
-    }
+[{"SENTENCE":"<p> He will bop the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"bop","animal":"bear","norm_category":"INST"},
+{"SENTENCE":"<p> He will bop the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"bop","animal":"butterfly","norm_category":"INST"},
+{"SENTENCE":"<p> He will bop the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"bop","animal":"elephant","norm_category":"INST"},
+{"SENTENCE":"<p> He will bop the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"bop","animal":"panda","norm_category":"INST"},
+{"SENTENCE":"<p> He will brush the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"brush","animal":"bird","norm_category":"na"},
+{"SENTENCE":"<p> He will brush the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"brush","animal":"camel","norm_category":"na"},
+{"SENTENCE":"<p> He will brush the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"brush","animal":"fish","norm_category":"na"},
+{"SENTENCE":"<p> He will brush the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"brush","animal":"penguin","norm_category":"na"},
+{"SENTENCE":"<p> He will bump the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"bump","animal":"bunny","norm_category":"na"},
+{"SENTENCE":"<p> He will bump the chicken with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"bump","animal":"chicken","norm_category":"na"},
+{"SENTENCE":"<p> He will bump the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"bump","animal":"frog","norm_category":"na"},
+{"SENTENCE":"<p> He will bump the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"bump","animal":"pig","norm_category":"na"},
+{"SENTENCE":"<p> He will choose the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"choose","animal":"butterfly","norm_category":"MOD"},
+{"SENTENCE":"<p> He will choose the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"choose","animal":"cow","norm_category":"MOD"},
+{"SENTENCE":"<p> He will choose the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"choose","animal":"giraffe","norm_category":"MOD"},
+{"SENTENCE":"<p> He will choose the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"choose","animal":"squirrel","norm_category":"MOD"},
+{"SENTENCE":"<p> He will clean the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"clean","animal":"camel","norm_category":"INST"},
+{"SENTENCE":"<p> He will clean the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"clean","animal":"dog","norm_category":"INST"},
+{"SENTENCE":"<p> He will clean the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"clean","animal":"hippo","norm_category":"INST"},
+{"SENTENCE":"<p> He will clean the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"clean","animal":"turtle","norm_category":"INST"},
+{"SENTENCE":"<p> He will cuddle the chicken with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"cuddle","animal":"chicken","norm_category":"MOD"},
+{"SENTENCE":"<p> He will cuddle the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"cuddle","animal":"dolphin","norm_category":"MOD"},
+{"SENTENCE":"<p> He will cuddle the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"cuddle","animal":"horse","norm_category":"MOD"},
+{"SENTENCE":"<p> He will cuddle the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"cuddle","animal":"whale","norm_category":"MOD"},
+{"SENTENCE":"<p> He will drag the fork and <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"drag","animal":"fork","norm_category":"MOD"},
+{"SENTENCE":"<p> He will drag the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"drag","animal":"squirrel","norm_category":"MOD"},
+{"SENTENCE":"<p> He will feed the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"feed","animal":"cow","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will feed the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"feed","animal":"duckling","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will feed the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"feed","animal":"ladybug","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will feed the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"feed","animal":"zebra","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will feel the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"feel","animal":"bear","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will feel the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"feel","animal":"dog","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will feel the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"feel","animal":"elephant","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will feel the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"feel","animal":"leopard","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will find the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"find","animal":"bird","norm_category":"MOD"},
+{"SENTENCE":"<p> He will find the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"find","animal":"dolphin","norm_category":"MOD"},
+{"SENTENCE":"<p> He will find the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"find","animal":"fish","norm_category":"MOD"},
+{"SENTENCE":"<p> He will find the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"find","animal":"lion","norm_category":"MOD"},
+{"SENTENCE":"<p> He will get the straw and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"get","animal":"straw","norm_category":"MOD"},
+{"SENTENCE":"<p> He will give the fan to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"give","animal":"fan","norm_category":"MOD"},
+{"SENTENCE":"<p> He will give the lollipop to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"give","animal":"lollipop","norm_category":"MOD"},
+{"SENTENCE":"<p> He will have the bunny <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"have","animal":"bunny","norm_category":"MOD"},
+{"SENTENCE":"<p> He will have the mouse go around the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"have","animal":"mouse","norm_category":"MOD"},
+{"SENTENCE":"<p> He will hit the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"hit","animal":"bunny","norm_category":"INST"},
+{"SENTENCE":"<p> He will hit the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"hit","animal":"duckling","norm_category":"INST"},
+{"SENTENCE":"<p> He will hit the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"hit","animal":"frog","norm_category":"INST"},
+{"SENTENCE":"<p> He will hit the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"hit","animal":"mouse","norm_category":"INST"},
+{"SENTENCE":"<p> He will hug the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"hug","animal":"butterfly","norm_category":"MOD"},
+{"SENTENCE":"<p> He will hug the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"hug","animal":"elephant","norm_category":"MOD"},
+{"SENTENCE":"<p> He will hug the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"hug","animal":"giraffe","norm_category":"MOD"},
+{"SENTENCE":"<p> He will hug the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"hug","animal":"panda","norm_category":"MOD"},
+{"SENTENCE":"<p> He will knock on the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"knock","animal":"bunny","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will knock on the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"knock","animal":"duckling","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will knock on the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"knock","animal":"frog","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will knock on the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"knock","animal":"mouse","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will locate the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"locate","animal":"camel","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will locate the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"locate","animal":"fish","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will locate the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"locate","animal":"hippo","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will locate the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"locate","animal":"penguin","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will look at the chicken with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"look","animal":"chicken","norm_category":"MOD"},
+{"SENTENCE":"<p> He will look at the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"look","animal":"frog","norm_category":"MOD"},
+{"SENTENCE":"<p> He will look at the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"look","animal":"horse","norm_category":"MOD"},
+{"SENTENCE":"<p> He will look at the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"look","animal":"pig","norm_category":"MOD"},
+{"SENTENCE":"<p> He will make the camel slide down the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"make","animal":"camel","norm_category":"MOD"},
+{"SENTENCE":"<p> He will make the elephant walk over to the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"make","animal":"elephant","norm_category":"MOD"},
+{"SENTENCE":"<p> He will make the fish eat <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"make","animal":"fish","norm_category":"MOD"},
+{"SENTENCE":"<p> He will make the squirrel <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"make","animal":"squirrel","norm_category":"MOD"},
+{"SENTENCE":"<p> He will nudge the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"nudge","animal":"cow","norm_category":"na"},
+{"SENTENCE":"<p> He will nudge the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"nudge","animal":"giraffe","norm_category":"na"},
+{"SENTENCE":"<p> He will nudge the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"nudge","animal":"ladybug","norm_category":"na"},
+{"SENTENCE":"<p> He will nudge the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"nudge","animal":"squirrel","norm_category":"na"},
+{"SENTENCE":"<p> He will pat the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pat","animal":"dog","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will pat the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pat","animal":"hippo","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will pat the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pat","animal":"leopard","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will pat the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pat","animal":"turtle","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will pet the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pet","animal":"dolphin","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pet the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pet","animal":"horse","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pet the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pet","animal":"lion","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pet the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pet","animal":"whale","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pick out the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pick","animal":"duckling","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pick out the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pick","animal":"ladybugy","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pick out the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pick","animal":"zebra","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pick up the leopard that is <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pick","animal":"the","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pick up the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pick","animal":"mouse","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pick up the tooth brush and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pick","animal":"the","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pick up the toothbrush and use it to <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pick","animal":"the","norm_category":"MOD"},
+{"SENTENCE":"<p> He will pinch the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pinch","animal":"bear","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will pinch the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pinch","animal":"elephant","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will pinch the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pinch","animal":"leopard","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will pinch the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"pinch","animal":"panda","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will point to the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"point","animal":"bird","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will point to the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"point","animal":"fish","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will point to the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"point","animal":"lion","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will point to the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"point","animal":"penguin","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will poke the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"poke","animal":"bunny","norm_category":"INST"},
+{"SENTENCE":"<p> He will poke the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"poke","animal":"frog","norm_category":"INST"},
+{"SENTENCE":"<p> He will poke the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"poke","animal":"mouse","norm_category":"INST"},
+{"SENTENCE":"<p> He will poke the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"poke","animal":"pig","norm_category":"INST"},
+{"SENTENCE":"<p> He will put the partyhat <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"put","animal":"partyhat","norm_category":"INST"},
+{"SENTENCE":"<p> He will rub the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"rub","animal":"butterfly","norm_category":"INST"},
+{"SENTENCE":"<p> He will rub the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"rub","animal":"giraffe","norm_category":"INST"},
+{"SENTENCE":"<p> He will rub the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"rub","animal":"panda","norm_category":"INST"},
+{"SENTENCE":"<p> He will rub the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"rub","animal":"squirrel","norm_category":"INST"},
+{"SENTENCE":"<p> He will scratch the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"scratch","animal":"camel","norm_category":"na"},
+{"SENTENCE":"<p> He will scratch the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"scratch","animal":"hippo","norm_category":"na"},
+{"SENTENCE":"<p> He will scratch the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"scratch","animal":"penguin","norm_category":"na"},
+{"SENTENCE":"<p> He will scratch the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"scratch","animal":"turtle","norm_category":"na"},
+{"SENTENCE":"<p> He will scuff the chicken with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"scuff","animal":"chicken","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will scuff the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"scuff","animal":"horse","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will scuff the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"scuff","animal":"pig","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will scuff the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"scuff","animal":"whale","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will select the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"select","animal":"cow","norm_category":"MOD"},
+{"SENTENCE":"<p> He will select the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"select","animal":"ladybug","norm_category":"MOD"},
+{"SENTENCE":"<p> He will select the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"select","animal":"squirrel","norm_category":"MOD"},
+{"SENTENCE":"<p> He will select the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"select","animal":"zebra","norm_category":"MOD"},
+{"SENTENCE":"<p> He will smack the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"smack","animal":"bear","norm_category":"INST"},
+{"SENTENCE":"<p> He will smack the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"smack","animal":"dog","norm_category":"INST"},
+{"SENTENCE":"<p> He will smack the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"smack","animal":"leopard","norm_category":"INST"},
+{"SENTENCE":"<p> He will smack the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"smack","animal":"turtle","norm_category":"INST"},
+{"SENTENCE":"<p> He will spot the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"spot","animal":"bird","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will spot the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"spot","animal":"dolphin","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will spot the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"spot","animal":"lion","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will spot the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"spot","animal":"whale","norm_category":"EQUI"},
+{"SENTENCE":"<p> He will squeeze the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"squeeze","animal":"bunny","norm_category":"MOD"},
+{"SENTENCE":"<p> He will squeeze the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"squeeze","animal":"duckling","norm_category":"MOD"},
+{"SENTENCE":"<p> He will squeeze the mouse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"squeeze","animal":"mouse","norm_category":"MOD"},
+{"SENTENCE":"<p> He will squeeze the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"squeeze","animal":"zebra","norm_category":"MOD"},
+{"SENTENCE":"<p> He will strike the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"strike","animal":"bear","norm_category":"INST"},
+{"SENTENCE":"<p> He will strike the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"strike","animal":"butterfly","norm_category":"INST"},
+{"SENTENCE":"<p> He will strike the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"strike","animal":"elephant","norm_category":"INST"},
+{"SENTENCE":"<p> He will strike the panda with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"strike","animal":"panda","norm_category":"INST"},
+{"SENTENCE":"<p> He will stroke the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"stroke","animal":"bird","norm_category":"na"},
+{"SENTENCE":"<p> He will stroke the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"stroke","animal":"camel","norm_category":"na"},
+{"SENTENCE":"<p> He will stroke the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"stroke","animal":"fish","norm_category":"na"},
+{"SENTENCE":"<p> He will stroke the penguin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"stroke","animal":"penguin","norm_category":"na"},
+{"SENTENCE":"<p> He will swat at the bunny with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"swat","animal":"bunny","norm_category":"na"},
+{"SENTENCE":"<p> He will swat at the frog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"swat","animal":"frog","norm_category":"na"},
+{"SENTENCE":"<p> He will swat at the pig with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"swat","animal":"pig","norm_category":"na"},
+{"SENTENCE":"<p> He will take the ladybug that is holding the net and make it <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"take","animal":"ladybug","norm_category":"na"},
+{"SENTENCE":"<p> He will take the whale and put him by the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"take","animal":"whale","norm_category":"na"},
+{"SENTENCE":"<p> He will tap the butterfly with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tap","animal":"butterfly","norm_category":"na"},
+{"SENTENCE":"<p> He will tap the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tap","animal":"cow","norm_category":"na"},
+{"SENTENCE":"<p> He will tap the giraffe with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tap","animal":"giraffe","norm_category":"na"},
+{"SENTENCE":"<p> He will tap the squirrel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tap","animal":"squirrel","norm_category":"na"},
+{"SENTENCE":"<p> He will tease the bear with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tease","animal":"bear","norm_category":"INST"},
+{"SENTENCE":"<p> He will tease the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tease","animal":"dog","norm_category":"INST"},
+{"SENTENCE":"<p> He will tease the elephant with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tease","animal":"elephant","norm_category":"INST"},
+{"SENTENCE":"<p> He will tease the leopard with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tease","animal":"leopard","norm_category":"INST"},
+{"SENTENCE":"<p> He will thump the bird with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"thump","animal":"bird","norm_category":"na"},
+{"SENTENCE":"<p> He will thump the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"thump","animal":"dolphin","norm_category":"na"},
+{"SENTENCE":"<p> He will thump the fish with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"thump","animal":"fish","norm_category":"na"},
+{"SENTENCE":"<p> He will thump the lion with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"thump","animal":"lion","norm_category":"na"},
+{"SENTENCE":"<p> He will tickle the camel with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tickle","animal":"camel","norm_category":"na"},
+{"SENTENCE":"<p> He will tickle the dog with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tickle","animal":"dog","norm_category":"na"},
+{"SENTENCE":"<p> He will tickle the hippo with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tickle","animal":"hippo","norm_category":"na"},
+{"SENTENCE":"<p> He will tickle the turtle with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"tickle","animal":"turtle","norm_category":"na"},
+{"SENTENCE":"<p> He will touch the chicken with the… <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"touch","animal":"chicken","norm_category":"na"},
+{"SENTENCE":"<p> He will touch the dog that has the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"touch","animal":"dog","norm_category":"na"},
+{"SENTENCE":"<p> He will touch the dolphin with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"touch","animal":"dolphin","norm_category":"na"},
+{"SENTENCE":"<p> He will touch the horse with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"touch","animal":"horse","norm_category":"na"},
+{"SENTENCE":"<p> He will touch the whale with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"touch","animal":"whale","norm_category":"na"},
+{"SENTENCE":"<p> He will use the cup to pet the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"use","animal":"cup","norm_category":"na"},
+{"SENTENCE":"<p> He will whack the cow with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"whack","animal":"cow","norm_category":"INST"},
+{"SENTENCE":"<p> He will whack the duckling with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"whack","animal":"duckling","norm_category":"INST"},
+{"SENTENCE":"<p> He will whack the ladybug with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"whack","animal":"ladybug","norm_category":"INST"},
+{"SENTENCE":"<p> He will whack the zebra with the <input type = 'text' id='test-resp-box' name = 'user_response'><\/p>","verb":"whack","animal":"zebra","norm_category":"INST"}
 ]

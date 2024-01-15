@@ -1,0 +1,64 @@
+﻿ 
+CONSENT TO PARTICIPATE IN A RESEARCH STUDY 
+Study Title: Language Processing and Memory 
+  
+
+Key Information 
+- You are being invited to participate in a research study.  Participation in research is completely voluntary.  
+- The purpose of the study is to investigate how people understand, remember, and produce linguistic information. 
+- The study will take a total of 1 hour maximum and you will be asked to read or listen to some words or sentences and then type and/or say something or perform some action with your mouse in response.  
+- Risks and/or discomforts include nothing beyond what you might typically experience while using a computer. 
+- There is no direct benefit to you. The results from the study will contribute to the scientific understanding of cognitive processing and may inform the development of diagnostics and treatments for individuals with language and/or memory disorders in the future. 
+ 
+ 
+Investigator's Name(s), Department(s), Telephone Number(s): Rachel Ryskin, Cognitive & Information Sciences, rryskin@ucmerced.edu 
+ 
+PURPOSE 
+ 
+You are being asked to participate in a research study.  We hope to learn how people use their memory to help them understand ambiguous language and how people select what to say in different contexts. 
+ 
+
+PROCEDURES 
+ 
+If you decide to volunteer, you will be asked to read or listen to some words or sentences. You will then be asked to respond by typing a written response, or saying a spoken response, or selecting an option (for example, a picture) that's available to you on the screen with your mouse or keyboard. Depending on the task, we will record your responses in several ways: what you typed, what you said out loud, where you clicked, and/or where you looked on the screen. You will always know when your voice or eye-gaze location is being recorded. We will never be recording video (though your webcam may need to be activated in order to detect the location of where you are looking on the screen). The study will take place entirely on the web and will involve over 100 participants. A session will take no more than 1 hour. In some cases, we may invite you to participate in a second session a few days later.   
+ 
+ 
+
+RISKS   
+ 
+A. There are no risks to you for your participation in this study. 
+B. Breach of confidentiality: As with all research, there is a chance that confidentiality could be compromised; however, we are taking precautions to minimize this risk.  
+ 
+
+BENEFITS 
+ 
+It is possible that you will not benefit directly by participating in this study.   
+ 
+
+CONFIDENTIALITY 	 	 
+ 	 	 	 	 	 	 	 
+Data collected during this study will not be linked to your identity. Only members of the lab will have access to raw data that contain the online crowdsourcing platform ID (e.g., Amazon Mechanical Turk Worker ID). These data will be stored on password-protected servers. The processed/analyzed data may be included in research works (papers, conference presentations) but any crowdsourcing platform IDs will be replaced with randomly generated alpha-numeric codes.  Absolute confidentiality cannot be guaranteed, since research documents are not protected from subpoena. 
+ 
+After such removal of the platform IDs, the data could be used for future research studies or distributed to other investigators for future research studies without additional informed consent from the subject or legally authorized representative.  
+
+COSTS/COMPENSATION 
+ 
+Participation will be compensated through the crowdsourcing platform (e.g., Amazon Mechanical Turk, Prolific) at an average rate of $12/hour estimated based on the approximate duration of the task.  There is no cost to you beyond the time and effort required to complete the procedure(s) described above.   
+ 
+ 
+
+RIGHT TO REFUSE OR WITHDRAW 	 	 	 	 	 	 	             
+ 
+Participation is completely voluntary.  You may refuse to participate in this study.  You may change your mind about being in the study and quit after the study has started. 
+ 	 	 	 
+
+QUESTIONS 	 	 	 	 	 	 	 	 	 
+ 
+If you have any questions about this research project please contact Rachel Ryskin, PhD at rryskin@ucmerced.edu 
+
+For questions about your rights while taking part in this study call the Office of Research at (209) 228-4613 or write to the Office of Research,5200 North Lake Rd, UC Merced, Merced, CA 95343.  The Office of Research will inform the Institutional Review Board which is a group of people who review the research to protect your rights.  If you have any complaints or concerns about this study, you may address them to Ramesh Balasubramaniam, Chair of the IRB at (209) 228-2314, irbchair@ucmerced.edu.    
+___________________________________________________________________________________________ 
+ 
+CONSENT 	 	 	 	 	 	 	 	 	 
+ 
+PRESSING THE BUTTON BELOW, WILL INDICATE THAT YOU HAVE DECIDED TO VOLUNTEER AS A RESEARCH SUBJECT AND THAT YOU HAVE READ AND UNDERSTOOD THE INFORMATION PROVIDED ABOVE.  PLEASE PRINT AND SAVE A COPY OF THIS FORM FOR YOUR RECORDS.   

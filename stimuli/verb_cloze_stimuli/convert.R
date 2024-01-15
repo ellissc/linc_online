@@ -7,6 +7,10 @@ library(jsonlite)
 
 ## Reading data ----
 stimuli <- read_csv(here("stimuli","verb_cloze_stimuli","verb_cloze_stimuli.csv")) |> 
+  distinct(question, .keep_all = T) |> 
+  mutate(animal = gsub("\\.","",animal))
+
+stimuli2 <- read_csv(here("stimuli","verb_cloze_stimuli","verb_cloze_stimuli.csv")) |> 
   distinct(question_num, question, verb, animal, .keep_all = T) |> 
   mutate(animal = gsub("\\.","",animal))
 
